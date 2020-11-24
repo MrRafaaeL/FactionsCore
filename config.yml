@@ -1,0 +1,53 @@
+### LOGS  ###
+Permissao: 'factions.staff'
+AtivarLogs:
+  Comandos: true
+  AbrirBaus: true
+  ColocarSpawners: false
+  QuebrarSpawners: false
+  DroparItem: true
+  Chat: false
+### LOGS ###
+
+Spawners:
+  Nome: '&eGerador de Monstros'
+  Lore: '&7Tipo: &f%tipo%'
+  ## Chance de dropar : ###
+  ChanceTNT: 20
+  ChanceCrepper: 50
+
+#### CONFIG ####
+
+BlastRadius: 2
+LiquidMultiplier: 2
+DurabilityChecker: '280'
+VoidProtector: true
+BedrockBlocking: true
+DisabledWorlds:
+  - 'vip'
+  - 'guerra'
+Drops:
+  DropChance: 10
+  DontDrop:
+    - '7'
+    - '49'
+    - '121'
+Blocks:
+  '49': 5
+  '121': 10
+  '7': 15
+Regen:
+  Frequency: 10
+  Amount: 1
+BlockCracks:
+  Enabled: true
+  Interval: 5
+ExplosionSources:
+  PRIMED_TNT: 2
+  CREEPER: 3
+  GHAST: 1
+  WITHER: 1
+  MINECART_TNT: 1
+
+venda:
+  IRON_BLOCK: 300.0

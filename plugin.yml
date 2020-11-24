@@ -1,0 +1,13 @@
+name: FactionsCore
+main: com.rafael.factions.Main
+version: 1.0.0
+author: MrRafaaeL - 2020
+softdepend:
+  - Factions
+commands:
+  op:
+  vanish:
+  spawner:
+    aliases: [sgive]
+  obsidianbreaker:
+  habilidades:
